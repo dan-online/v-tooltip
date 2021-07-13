@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import VTooltip from '../'
+import VTooltip from 'v-tooltip'
 
 Vue.use(VTooltip, <%= serialize(options) %>)
 
